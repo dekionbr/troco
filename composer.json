@@ -1,0 +1,26 @@
+{
+    "name": "juliosilveira/troco",
+    "description": "Projeto de avaliação para programador php, troco",
+    "type": "project",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "10.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }        
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julio Silveira",
+            "email": "silveira.julio@gmail.com"
+        }
+    ]
+}
